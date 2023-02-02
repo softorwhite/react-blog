@@ -1,9 +1,9 @@
 import './globals.css'
 
-export default function RootLayout({
-  children,
+export default function RootLayout ({
+  children
 }: {
-  children: React.ReactNode
+  children: React.ReactNode // eslint-disable-line
 }) {
   return (
     <html lang="en">
